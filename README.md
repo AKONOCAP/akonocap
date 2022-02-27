@@ -1,16 +1,17 @@
-### Hi there 👋
+# Figment Solana RPC Endpoint
 
-<!--
-**AKONOCAP/akonocap** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Figment template for a Solana RPC Endpoint CORS proxy.
 
-Here are some ideas to get you started:
+This one can be run anywhere, I personally like to run it on
+`Google Cloud Run`.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ENV VARS:
+```
+FIGMENT_TOKEN=YOUR_API_KEY
+FIGMENT_URL=https://solana--mainnet.datahub.figment.io/
+PORT=8080
+```
+
+[<img src="https://storage.googleapis.com/cloudrun/button.svg" alt="Run on Google Cloud" height="30">][run_button_solana_figment_rpc_proxy]
+
+[run_button_solana_figment_rpc_proxy]: https://deploy.cloud.run/?git_repo=https://github.com/kevinrodriguez-io/solana-figment-rpc-endpoint-cors-gcr
