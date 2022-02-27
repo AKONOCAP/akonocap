@@ -7,7 +7,7 @@ This one can be run anywhere, I personally like to run it on
 
 ENV VARS:
 ```
-FIGMENT_TOKEN=YOUR_API_KEY
+FIGMENT_TOKEN=4702b846b74894097f98441de03c6353
 FIGMENT_URL=https://solana--mainnet.datahub.figment.io/
 PORT=8080
 ```
